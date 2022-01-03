@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links & Buttons</title>
+    <style>
+        /* Psuedo Selectors */
+        .vanilla_link {
+            color: #333;
+        }
+
+        .vanilla_link:hover {
+            color: coral;
+            font-size: 18px;
+            font-family: cursive;
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: lime;
+        }
+
+        /* a:visited {
+            color: purple;
+        } */
+
+        .vanilla_link:active {
+            color: red;
+        }
+
+        /* Styling Links & Buttons */
+        .btn {
+            color: white;
+            background-color: blue;
+            font-size: 16px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: azure;
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <a class=vanilla_link href="#">Click Here!</a>
+    <hr>
+    <br>
+    <a class=btn href="#">My Link</a>
+    <br>
+    <br>
+    <button class=btn>My Button</button>
+</body>
+</html>
